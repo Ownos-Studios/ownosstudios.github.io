@@ -8,9 +8,13 @@
     li{
         padding: 0 0.625rem !important;
         a{
-            color: $a-color !important;
+            color: var(--a-color) !important;
             text-transform: uppercase !important;
-            font-weight: 37.5rem;          
+            font-weight: 37.5rem;
+            &:hover{
+                color: var(--a-hover) !important;
+                font-weight: bold !important;
+            }
         }  
 
     }
